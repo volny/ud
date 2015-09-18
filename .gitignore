@@ -1,0 +1,5 @@
+restart.sql
+specs.md
+
+*.pyc
+.DS_Store
