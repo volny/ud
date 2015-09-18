@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <h1>Restaurants</h1>
+
+        {% for r in restaurants %}
+
+        <a href="/restaurants/{{r.id}}">{{r.name}}</a>
+
+        {% endfor %}
+
+    </body>
+</html>
